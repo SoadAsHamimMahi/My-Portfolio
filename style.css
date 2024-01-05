@@ -1,0 +1,44 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav > ul > li{
+    list-style-type: none; 
+    margin-right: 50px;    
+}
+
+nav a{
+    text-decoration:none;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nickname{
+    font-size: 45px;
+    color: black;
+}
+
+.singleword{
+    color: #FD6E0A;
+}
+
+.button-primary{
+    background: #FD6E0A;
+    padding: 15px 25px;
+    border: none;
+    border-style:unset;
+    font-size: 20px;
+    font-weight: 700px;
+
+}
